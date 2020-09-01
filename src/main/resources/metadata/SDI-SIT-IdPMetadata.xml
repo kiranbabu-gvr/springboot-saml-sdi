@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="SM161575d81b043abe1eadd5f91fa2e3b12cfdb38b93" entityID="https://sdi-sit.kiran.com.in">
+<IDPSSODescriptor WantAuthnRequestsSigned="false" ID="SM1f9a2e1edb44cc431de37706194a29cf328a40b7fb" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<KeyDescriptor use="signing">
+<ns1:KeyInfo xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" Id="SM193cd435d08a9a8a2c203d4be6dbb3b9444f83173d4">
+<ns1:X509Data>
+<ns1:X509IssuerSerial>
+<ns1:X509IssuerName>CN=KIRAN SDI UAT Root CA,OU=Information Technology,O=Kiran Ltd.,L=India,ST=Tamilnadu,C=IN</ns1:X509IssuerName>
+<ns1:X509SerialNumber>9298801785468732102</ns1:X509SerialNumber>
+</ns1:X509IssuerSerial>
+<ns1:X509Certificate>MIIEhDCCA2ygAwIBAgIJAIEL+vTrocLGMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJTRzESMBAGA1UECBMJU2luZ2Fwb3JlMRIwEAYDVQQHEwlTaW5nYXBvcmUxEjAQBgNVBAoTCVNBVFMgTHRkLjEfMB0GA1UECxMWSW5mb3JtYXRpb24gVGVjaG5vbG9neTEdMBsGA1UEAxMUU0FUUyBTREkgVUFUIFJvb3QgQ0EwHhcNMjAwNjE5MDcyNTAwWhcNMzAwNjE3MDcyNTAwWjB0MQswCQYDVQQGEwJTRzESMBAGA1UECBMJU2luZ2Fwb3JlMRIwEAYDVQQHEwlTaW5nYXBvcmUxEjAQBgNVBAoTCVNBVFMgTHRkLjELMAkGA1UECxMCSVQxHDAaBgNVBAMTE3NkaS1zaXQuc2F0cy5jb20uc2cwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxmh+1718iRZ156v0krnrB8MrsliVIPZ1bwm9vbKbRYZfURg0JnYyRoRkOUtTh3Wyo9SE34NCb0R3s68tBy4kIOYKLF43u7Ha7rJuWa411ktYZIBaYVSeOLMECex/T9U+2VpoJQU1gRvkbP48/2qaC+ehUZ6ablZPv7b+QbqQ1Yytky4E5qP4Smq8WYprv+7mFeP3hj1z1oe1PWKTy0zZumgPqLWQ8M6XuDiXknNK53BnbzRXAr2ROTp3Ecoo2mSFhBc6tzmEG7XZvGEJPfL41N/kK6YDO2XQElNrixB9eQ1kekpeoHBkf2o8v6iUx6zuplq6DqQ/8Q636384Rtt+xAgMBAAGjggEBMIH+MB8GA1UdIwQYMBaAFAyeKQLZM//q2M6MxAd0DxHbE3lCMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgTwMIHCBgNVHREEgbowgbeCE3NkaS1zaXQuc2F0cy5jb20uc2eCDSouc2F0cy5jb20uc2eCECouc2F0c2Rldi5jb20uc2eCECouc2F0c25ldC5jb20uc2eCEiouc2hhcmVwbGFuLmNvbS5zZ4IaKi5zYXRzYWZmaW5pdHlzZXJ2aWNlcy5jb22CEyouc2F0cy1hZmZpbml0eS5jb22CDnNkaWhlYWx0aHByb2JlggsxMC4xMzQuMC4yMIILMTAuMTM0LjcuMzYwDQYJKoZIhvcNAQELBQADggEBAA0XFbMAh2bXCL5ObG9KefcIlvtYluIfWWeyUS4ZnbSOz5PB18g1h/FJjlSpQFPHXGSh+5QSyjyL2I2EaZUNe0F/CBQ6ZE6/t6cJTPjqo0ayRSSzJFq592oF61ULsRbbVB5c70Su/8JYvT9toCCXJaM+n2WcrAJKH6Pd2GDIVUg8DyELQh9euUkFkbKxQ/y0lRHXw4bwGQ7kveBUvtJ39cPQXRP2WVNz/EA++nN3vQAbeyRug9QItVGLtm9+eJpXJKDwb8rYECYfGXWwIYG2L3R0NMsnqfoiNE89Q5/mpOepKKcrNAch27Db1rae+MQaXQepY2ri8ESHpCHv9hRbX34=</ns1:X509Certificate>
+<ns1:X509SubjectName>CN=sdi-sit.kiran.com.in,OU=IT,O=Kiran Ltd.,L=India,ST=Tamilnadu,C=IN</ns1:X509SubjectName>
+</ns1:X509Data>
+</ns1:KeyInfo>
+</KeyDescriptor>
+<ArtifactResolutionService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2ars"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2slo"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2slosoap"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2slo"/>
+<ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2nidsoap"/>
+<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2sso"/>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2sso"/>
+</IDPSSODescriptor>
+<AttributeAuthorityDescriptor ID="SM54661bb4d22670d4a8c6b6aa283dcb478913bf83" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sdi-sit.kiran.com.in/affwebservices/public/saml2attrsvc"/>
+<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+</AttributeAuthorityDescriptor>
+</EntityDescriptor>
